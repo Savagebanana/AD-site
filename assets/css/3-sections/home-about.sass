@@ -1,9 +1,11 @@
 section.head-img
 	background:
-		image: url(../images/top-bg.jpg)
-		position:  right top
+		image: url(../images/top-bg-ipad.jpg)
+		position:  right 0px
 		size: cover
-		// height: 35vh
+		repeat: no-repeat
+		// transition: background-position 1s ease-in-out
+		overflow: hidden
 
 
 	.col-title
@@ -12,6 +14,7 @@ section.head-img
 		flex-direction: column
 		justify-content: center
 		align-items: center
+		// height: 20vh
 	.box
 		width: 260px
 		border: 5px solid $title-color

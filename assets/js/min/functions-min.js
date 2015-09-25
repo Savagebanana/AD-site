@@ -1,0 +1,1 @@
+function headerImageScroll(){var o=$(window).scrollTop();$("section.head-img").css("background-position","right  -"+o+"px")}$(window).scroll(function(){headerImageScroll()});

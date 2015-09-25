@@ -239,11 +239,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/images\/top-bg-ipad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58322,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/top-bg-ipad.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/top-bg-ipad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/images\/top-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 261020,
+		"initialSize": 493466,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/top-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/top-bg.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -272,6 +283,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/assets\/js\/min\/functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/min\/functions-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -289,6 +311,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/min\/gulpfile-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/min\/gulpfile-min.js",
+		"outputAbbreviatedPath": "\/_site\/min\/min\/gulpfile-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/_site\/README.md": {
 		"criticStyle": 0,
@@ -1718,6 +1751,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/top-bg-ipad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58322,
+		"inputAbbreviatedPath": "\/assets\/images\/top-bg-ipad.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/top-bg-ipad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/top-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1751,6 +1795,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/min\/functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/functions-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/functions-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/gulpfile.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1770,6 +1825,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/min\/gulpfile-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/min\/gulpfile-min.js",
+		"outputAbbreviatedPath": "\/min\/min\/gulpfile-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/package.json": {
 		"fileType": 524288,

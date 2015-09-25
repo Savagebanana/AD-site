@@ -621,9 +621,11 @@ a {
             transform: translateY(0%); } }
 
 section.head-img {
-  background-image: url(../images/top-bg.jpg);
-  background-position: right top;
-  background-size: cover; }
+  background-image: url(../images/top-bg-ipad.jpg);
+  background-position: right 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-overflow: hidden; }
   section.head-img .col-title {
     display: -webkit-box;
     display: -webkit-flex;
