@@ -1,0 +1,19 @@
+mixin nav-content()
+	ul
+		li: a(href="#home") Home
+		li: a(href="#About") About
+		li: a(href="#work") Work
+		li: a(href="#contact") Contact
+
+.mobile-nav
+	+nav-content()
+
+header
+	.header-position
+		h1.logo Adrian DOrnellas
+
+		nav.site-nav
+			+nav-content()
+		a(href='mailto:adrian@savagebanana.com').email-link + email me
+
+		.mobile-nav-toggle: span

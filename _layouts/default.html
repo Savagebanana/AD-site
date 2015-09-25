@@ -6,10 +6,15 @@
 		<title>{{ page.title }}</title>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="javascript" href="assets/css/main.css">
+
 	</head>
 	<body>
 
 		{{ content }}
+		{% if page.url == "/index.html" %}
+		<script src="/assets/js/functions.js"></script>
+		{% endif %}
 
 	</body>
 </html>
