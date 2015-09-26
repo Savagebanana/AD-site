@@ -1,0 +1,78 @@
+section.logo-branding
+	background:
+		image: $pattern-01
+		// color: white
+	position: relative
+
+
+	h3
+		// background: white
+		padding: 20px 10px
+		margin: 0
+		position: absolute
+		top: 0
+		left: 0
+		font-family: Permanent Marker, sans-serif
+		line-height: 1em
+		font-size: 1.5em
+		font-weight: 400
+		color: white
+
+	.logo-wrap
+		flex-wrap: wrap
+		justify-content: space-around
+		// align-items: center
+		// width: 80%
+	.logo-thumb
+		display: flex
+		align-items: center
+		justify-content: center
+		background:
+			size: contain
+			position: center
+			repeat: no-repeat
+		flex: 1 1 300px
+		height: 200px
+		position: relative
+
+		filter: grayscale(100%)
+
+		margin: 2%
+		transition: all 200ms ease-in-out
+		text-decoration: none
+		text-align: center
+
+		.logo-meta
+			position: relative
+			background:
+				image: $pattern-01
+			padding: 20px
+			opacity: 0
+			transition: all 700ms ease-in-out
+
+
+
+			.name
+				font-size: 1.1em
+				line-height: 1.2
+				font-weight: 600
+				margin: 0
+				color: black - 25
+
+			.date
+				font-style: italic
+				color: black - 25
+
+
+	.logo-thumb:hover
+		filter: grayscale(0)
+		// transform: translate(0%, 0%) scale(1)
+
+	.logo-thumb:hover .logo-meta
+		box-shadow:  0px 0px 30px -7px $text-color
+		border-radius: 5px 5px
+		opacity: 100
+
+@media (max-width: 999px)
+	.logo-thumb
+		filter: grayscale(0)

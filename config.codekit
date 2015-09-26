@@ -20,6 +20,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/section-branding.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/section-branding.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/section-development.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/section-development.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/section-head-img.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -51,6 +69,28 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/_jadefiles\/section-branding.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_jadefiles\/section-branding.jade",
+		"outputAbbreviatedPath": "\/_includes\/section-branding.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/_jadefiles\/section-development.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_jadefiles\/section-development.jade",
+		"outputAbbreviatedPath": "\/_includes\/section-development.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/_jadefiles\/section-head-img.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -76,6 +116,114 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/post.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2011-07-10-gta-dodgeball.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2011-07-10-gta-dodgeball.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2013-07-27-mks-performance.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2013-07-27-mks-performance.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2013-09-06-boilers-hockey.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2013-09-06-boilers-hockey.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2014-06-23-trevor-theissen.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-06-23-trevor-theissen.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2015-03-10-toronto-skycam.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2015-03-10-toronto-skycam.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2015-05-01-360-Futbol-Camp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2015-05-01-360-Futbol-Camp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2011\/07\/10\/gta-dodgeball.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2011\/07\/10\/gta-dodgeball.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2013\/07\/27\/mks-performance.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2013\/07\/27\/mks-performance.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2013\/09\/06\/boilers-hockey.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2013\/09\/06\/boilers-hockey.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2014\/06\/23\/trevor-theissen.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2014\/06\/23\/trevor-theissen.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2015\/03\/10\/toronto-skycam.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2015\/03\/10\/toronto-skycam.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2015\/05\/01\/360-Futbol-Camp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2015\/05\/01\/360-Futbol-Camp.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -176,6 +324,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/_site\/assets\/css\/3-sections\/home-branding.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/3-sections\/home-branding.sass",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/home-branding.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/_site\/assets\/css\/3-sections\/home-development.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/3-sections\/home-development.sass",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/home-development.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/_site\/assets\/css\/4-layouts\/home.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -224,6 +404,94 @@
 		"initialSize": 449902,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/about-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/about-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/development-img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92273,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/development-img.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/development-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/imac-TorSky-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302665,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/imac-TorSky-img.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/imac-TorSky-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/iphone-TorSky-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55057,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/iphone-TorSky-img.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/iphone-TorSky-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/60D42258004AA4C8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 366026,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/60D42258004AA4C8.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/60D42258004AA4C8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/logo-360fc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119465,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-360fc.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-360fc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/logo-boilers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27440,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-boilers.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-boilers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/logo-gta-dodgeball.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22665,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-gta-dodgeball.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-gta-dodgeball.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/logo-mks.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6036,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-mks.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-mks.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -299,15 +567,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/jekyll\/update\/2014\/04\/20\/welcome-to-jekyll.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/jekyll\/update\/2014\/04\/20\/welcome-to-jekyll.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1688,6 +1947,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/3-sections\/home-branding.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-sections\/home-branding.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/home-branding.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/3-sections\/home-development.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-sections\/home-development.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/home-development.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-layouts\/home.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1736,6 +2027,94 @@
 		"initialSize": 418149,
 		"inputAbbreviatedPath": "\/assets\/images\/about-bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/about-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/development-img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92273,
+		"inputAbbreviatedPath": "\/assets\/images\/development-img.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/development-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/imac-TorSky-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302665,
+		"inputAbbreviatedPath": "\/assets\/images\/imac-TorSky-img.png",
+		"outputAbbreviatedPath": "\/assets\/images\/imac-TorSky-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/iphone-TorSky-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58954,
+		"inputAbbreviatedPath": "\/assets\/images\/iphone-TorSky-img.png",
+		"outputAbbreviatedPath": "\/assets\/images\/iphone-TorSky-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/60D42258004AA4C8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/60D42258004AA4C8.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/60D42258004AA4C8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/logo-360fc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119465,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-360fc.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-360fc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/logo-boilers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27440,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-boilers.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-boilers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/logo-gta-dodgeball.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22665,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-gta-dodgeball.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-gta-dodgeball.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/logo-mks.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6036,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-mks.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-mks.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1,0 +1,12 @@
+section.logo-branding
+	//- h3 Logo Design &amp; Branding
+
+	.flex.logo-wrap
+		{% for post in site.posts %}
+
+		a.logo-thumb(href='{{post.url}}}' style='background-image: url(assets/images/logos/{{post.thumbnail}})')
+			.logo-meta
+				.name {{post.title}}
+				.date {{post.date | date: "%b %d, %Y"}}
+
+		{% endfor %}
