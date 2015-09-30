@@ -19,7 +19,7 @@
   font-family: 'Permanent Marker';
   font-style: normal;
   font-weight: 400;
-  src: local("Permanent Marker"), local("PermanentMarker"), url(/assets/fonts/PermanentMarker-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMio-5Z6V1O0VBgfXWFfbB4c.woff2) format("woff2");
+  src: local("Permanent Marker"), local("PermanentMarker"), url({{site.baseurl}}/assets/fonts/PermanentMarker-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMio-5Z6V1O0VBgfXWFfbB4c.woff2) format("woff2");
   unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
 
 /* latin */
@@ -717,8 +717,9 @@ section.logo-branding {
       background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/first_aid_kit.png);
       padding: 20px;
       opacity: 0;
-      -webkit-transition: all 700ms ease-in-out;
-              transition: all 700ms ease-in-out; }
+      border-radius: 80px 80px;
+      -webkit-transition: all 700ms ease-in;
+              transition: all 700ms ease-in; }
       section.logo-branding .logo-thumb .logo-meta .name {
         font-size: 1.1em;
         line-height: 1.2;
@@ -744,19 +745,23 @@ section.logo-branding {
 section.development {
   background-color: #cdcdcd;
   background-size: cover;
-  height: 80vh;
   position: relative; }
   section.development .iphone {
     display: block;
+    position: absolute;
+    left: -10%;
+    top: 200%;
     background-size: contain;
     background-repeat: no-repeat;
-    width: auto;
-    margin: 10%; }
+    width: auto; }
   section.development .imac {
     display: block;
-    background-image: url(/assets/images/imac-TorSky-img.png);
+    position: absolute;
+    left: 0;
+    top: 0;
     background-size: contain;
-    width: 100px; }
+    background-repeat: no-repeat;
+    width: auto; }
 
 .home-wrap {
   display: -webkit-box;
