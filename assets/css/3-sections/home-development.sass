@@ -1,31 +1,69 @@
 section.development
 	background:
 		color: $title-color
-		size: cover
-	// height: 80vh
+		// size: cover
+	height: 100vh
 	position: relative
+	width: 100%
+	// overflow: hidden
 
-	.iphone
-		display: block
-		position: absolute
-		left: -10%
-		top: 200%
-		background:
-			// image: url(/assets/images/iphone-TorSky-img.png)
-			size: contain
-			repeat: no-repeat
-		width: auto
-		// margin: 10%
-		// height: 1000px
-	.imac
-		display: block
-		position: absolute
-		left: 0
-		top: 0
+	.dev-wrapper
+		position: relative
+		display: flex
+		flex-direction: row
+		align-items: center
+		justify-content: space-around
+		padding-top: 30%
+		@media (max-width: 640px)
+			display: block
 
-		background:
-			// image: url(/assets/images/imac-TorSky-img.png)
-			size: contain
-			repeat: no-repeat
-		width: auto
-		// transform: scale(.5)
+		.iphone
+			display: block
+			position: absolute
+			left: 0
+			bottom: -4%
+			background:
+				size: contain
+				repeat: no-repeat
+			// height: auto
+			// margin: 10%
+			height: auto
+			width: auto
+			transform: scale(.07)
+			transform-origin: bottom left
+			z-index: 1
+
+			@media (max-width: 640px)
+				transform: scale(.04)
+		.imac
+			display: block
+			position: absolute
+			left: 0
+			bottom: 0
+			background:
+				size: contain
+				repeat: no-repeat
+			width: auto
+			height: auto
+			transform: scale(.5)
+			transform-origin: 50% 50%
+
+			@media (max-width: 640px)
+				transform: scale(.6)
+				width: 100%
+		.ipad
+			display: block
+			position: absolute
+			right: 0
+			bottom: -3%
+			background:
+				size: contain
+				repeat: no-repeat
+			width: auto
+			height: auto
+			transform: scale(.3)
+			transform-origin: bottom right
+
+			@media (max-width: 640px)
+				transform: scale(.25)
+				width: 100%
