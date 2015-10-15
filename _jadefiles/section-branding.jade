@@ -4,7 +4,7 @@ section.logo-branding
 	.flex.logo-wrap
 		{% for post in site.posts %}
 
-		a.logo-thumb(href='{{post.url}}}' style='background-image: url(assets/images/logos/{{post.thumbnail}})')
+		a.logo-thumb(href='{{post.url}}' style='background-image: url(assets/images/logos/{{post.thumbnail}})')
 			.logo-meta
 				.name {{post.title}}
 				.date {{post.date | date: "%b %d, %Y"}}

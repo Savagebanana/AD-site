@@ -40,14 +40,17 @@
 					margin-bottom: 10px
 					&:last-child
 						margin-bottom: 0
-					a, a:active
+					a
 						display: block
 						text-decoration: none
 						color: #333
-						transition: all 0.25s ease-in-out
+						transition: all 0.25s cubic-bezier(0, 0, 0.56, 2.65)
 						&:hover
-							color: lighten( #333, 40%)
+							color: crimson
 							transform: scale(1.2)
+		.active
+			// background-color: pink
+			color: fuscia
 		.email-link
 			display: block
 			text-align: right
