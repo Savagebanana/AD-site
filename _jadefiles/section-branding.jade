@@ -1,4 +1,4 @@
-section.logo-branding
+section.logo-branding#work
 	//- h3 Logo Design &amp; Branding
 
 	.flex.logo-wrap
@@ -7,6 +7,6 @@ section.logo-branding
 		a.logo-thumb(href='{{post.url}}' style='background-image: url(assets/images/logos/{{post.thumbnail}})')
 			.logo-meta
 				.name {{post.title}}
-				.date {{post.date | date: "%b %d, %Y"}}
+				.date {{post.kind | date: "%b %d, %Y"}}
 
 		{% endfor %}
