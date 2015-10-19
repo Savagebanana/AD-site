@@ -19,7 +19,7 @@
   font-family: 'Permanent Marker';
   font-style: normal;
   font-weight: 400;
-  src: local("Permanent Marker"), local("PermanentMarker"), url(/assets/fonts/PermanentMarker-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMio-5Z6V1O0VBgfXWFfbB4c.woff2) format("woff2");
+  src: local("Permanent Marker"), local("PermanentMarker"), url(../fonts/PermanentMarker-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMio-5Z6V1O0VBgfXWFfbB4c.woff2) format("woff2");
   unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
 
 /* latin */
@@ -35,7 +35,7 @@
   font-family: 'Orbitron';
   font-style: normal;
   font-weight: 400;
-  src: local("Orbitron-Light"), local("Orbitron-Regular"), url(/assets/fonts/orbitron-light-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQnYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");
+  src: local("Orbitron-Light"), local("Orbitron-Regular"), url(../fonts/orbitron-light-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQnYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");
   unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -392,20 +392,6 @@ td,
 th {
   padding: 0; }
 
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url(http://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
-
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url(http://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
-
 html,
 body {
   min-height: 100%; }
@@ -505,17 +491,19 @@ a {
       margin-bottom: 10px; }
       .home-wrap header .site-nav ul li:last-child {
         margin-bottom: 0; }
-      .home-wrap header .site-nav ul li a, .home-wrap header .site-nav ul li a:active {
+      .home-wrap header .site-nav ul li a {
         display: block;
         text-decoration: none;
         color: #333;
-        -webkit-transition: all 0.25s ease-in-out;
-                transition: all 0.25s ease-in-out; }
-        .home-wrap header .site-nav ul li a:hover, .home-wrap header .site-nav ul li a:active:hover {
-          color: #999999;
+        -webkit-transition: all 0.25s cubic-bezier(0, 0, 0.56, 2.65);
+                transition: all 0.25s cubic-bezier(0, 0, 0.56, 2.65); }
+        .home-wrap header .site-nav ul li a:hover {
+          color: crimson;
           -webkit-transform: scale(1.2);
               -ms-transform: scale(1.2);
                   transform: scale(1.2); }
+  .home-wrap header .active {
+    color: fuscia; }
   .home-wrap header .email-link {
     display: block;
     text-align: right;
@@ -653,11 +641,11 @@ section.head-img {
   section.head-img h2 {
     color: #cdcdcd;
     font-size: 2em;
-    font-family: 'Permanent Marker' cursive;
+    font-family: 'Permanent Marker', cursive;
     padding: 0;
     line-height: 1em; }
     section.head-img h2:last-child {
-      font-family: 'Orbitron' cursive;
+      font-family: 'Orbitron', cursive;
       font-size: 1.7em;
       padding-top: 7px;
       font-weight: 400; }
@@ -717,8 +705,9 @@ section.logo-branding {
       background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/first_aid_kit.png);
       padding: 20px;
       opacity: 0;
-      -webkit-transition: all 700ms ease-in-out;
-              transition: all 700ms ease-in-out; }
+      border-radius: 80px 80px;
+      -webkit-transition: all 700ms ease-in;
+              transition: all 700ms ease-in; }
       section.logo-branding .logo-thumb .logo-meta .name {
         font-size: 1.1em;
         line-height: 1.2;
@@ -742,21 +731,124 @@ section.logo-branding {
             filter: grayscale(0); } }
 
 section.development {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #cdcdcd;
-  background-size: cover;
-  height: 80vh;
-  position: relative; }
-  section.development .iphone {
-    display: block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: auto;
-    margin: 10%; }
-  section.development .imac {
-    display: block;
-    background-image: url(/assets/images/imac-TorSky-img.png);
-    background-size: contain;
-    width: 100px; }
+  position: relative;
+  width: 100%; }
+  section.development .dev-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: flex-top;
+    -webkit-align-items: flex-top;
+        -ms-flex-align: flex-top;
+            align-items: flex-top;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    padding-top: 10%; }
+    @media (max-width: 640px) {
+      section.development .dev-wrapper {
+        display: block; } }
+    section.development .dev-wrapper .iphone {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: auto;
+      width: auto;
+      margin: 2%;
+      -webkit-transform: scale(0.07);
+          -ms-transform: scale(0.07);
+              transform: scale(0.07);
+      -webkit-transform-origin: bottom left;
+          -ms-transform-origin: bottom left;
+              transform-origin: bottom left;
+      z-index: 1; }
+      @media (max-width: 640px) {
+        section.development .dev-wrapper .iphone {
+          -webkit-transform: scale(0.04);
+              -ms-transform: scale(0.04);
+                  transform: scale(0.04); } }
+    section.development .dev-wrapper .imac {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: auto;
+      height: auto;
+      -webkit-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 35% bottom;
+          -ms-transform-origin: 35% bottom;
+              transform-origin: 35% bottom; }
+      @media (max-width: 640px) {
+        section.development .dev-wrapper .imac {
+          -webkit-transform: scale(0.6);
+              -ms-transform: scale(0.6);
+                  transform: scale(0.6);
+          width: 100%; } }
+    section.development .dev-wrapper .ipad {
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: -3%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: auto;
+      height: auto;
+      -webkit-transform: scale(0.3);
+          -ms-transform: scale(0.3);
+              transform: scale(0.3);
+      -webkit-transform-origin: bottom right;
+          -ms-transform-origin: bottom right;
+              transform-origin: bottom right; }
+      @media (max-width: 640px) {
+        section.development .dev-wrapper .ipad {
+          -webkit-transform: scale(0.25);
+              -ms-transform: scale(0.25);
+                  transform: scale(0.25);
+          width: 100%; } }
+  section.development .col-50:nth-child(2n) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 4%; }
+    section.development .col-50:nth-child(2n) h3 {
+      font-family: Permanent Marker; }
+    section.development .col-50:nth-child(2n) p {
+      font-family: open sans;
+      line-height: 2em; }
 
 .home-wrap {
   display: -webkit-box;
@@ -798,8 +890,7 @@ section.development {
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
         -ms-flex-order: -1;
-            order: -1;
-    background: aqua; }
+            order: -1; }
 
 .col-1 {
   max-width: 300px;
@@ -810,7 +901,8 @@ section.development {
   margin: 0 10px; }
 
 .col-50 {
-  width: 50%; }
+  width: 50%;
+  position: relative; }
 
 @media (max-width: 640px) {
   .home-sections .flex {
