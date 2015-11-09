@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "19076",
 "files": {
 	"\/_includes\/columns.html": {
 		"fileType": 8192,
@@ -423,7 +423,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 329267,
+		"initialSize": 210866,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/imac-TorSky-img.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/imac-TorSky-img.png",
 		"outputPathIsOutsideProject": 0,
@@ -437,6 +437,17 @@
 		"initialSize": 98784,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/ipad-TorSky-img.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/ipad-TorSky-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/iphone-360fc-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54662,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/iphone-360fc-img.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/iphone-360fc-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2073,7 +2084,7 @@
 		"outputAbbreviatedPath": "\/assets\/images\/imac-TorSky-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/images\/ipad-TorSky-img.png": {
 		"fileType": 32768,
@@ -2082,6 +2093,17 @@
 		"initialSize": 98784,
 		"inputAbbreviatedPath": "\/assets\/images\/ipad-TorSky-img.png",
 		"outputAbbreviatedPath": "\/assets\/images\/ipad-TorSky-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/iphone-360fc-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31749,
+		"inputAbbreviatedPath": "\/assets\/images\/iphone-360fc-img.png",
+		"outputAbbreviatedPath": "\/assets\/images\/iphone-360fc-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2921,7 +2943,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
