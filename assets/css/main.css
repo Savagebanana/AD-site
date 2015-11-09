@@ -557,8 +557,8 @@ a {
   -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out; }
   .home-wrap .mobile-nav ul {
     list-style: none;
     margin: 0;
