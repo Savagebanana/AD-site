@@ -1,43 +1,7 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url(https://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
-  unicode-range: U100-24F, U1E -1EFF, U20A -20AB, U20AD-20CF, U2C 58C 7F, UA720-A7FF; }
-
-/* latin */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url(https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
-
-/* latin */
-@font-face {
-  font-family: 'Permanent Marker';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Permanent Marker"), local("PermanentMarker"), url(../fonts/PermanentMarker-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMio-5Z6V1O0VBgfXWFfbB4c.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
-
-/* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Raleway"), url(https://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
-
-/* latin */
-@font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Orbitron-Light"), local("Orbitron-Regular"), url(../fonts/orbitron-light-webfont.svg) format("svg"), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQnYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
-
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900|Permanent+Marker|Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300,600,700italic,600italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -615,6 +579,9 @@ section.head-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-overflow: hidden; }
+  @media (max-width: 680px) {
+    section.head-img {
+      background-image: url(../images/top-bg-450.png); } }
   section.head-img .col-title {
     display: -webkit-box;
     display: -webkit-flex;
@@ -730,125 +697,165 @@ section.logo-branding {
     -webkit-filter: grayscale(0);
             filter: grayscale(0); } }
 
-section.development {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #cdcdcd;
+section.code {
+  display: block;
+  background-image: url(/assets/images/code-bg-480.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
   position: relative;
-  width: 100%; }
-  section.development .dev-wrapper {
+  width: 100%;
+  padding-bottom: 0 !important; }
+  @media (min-width: 900px) {
+    section.code {
+      background-image: url(/assets/images/code-bg.jpg); } }
+  section.code p {
+    color: #cdcdcd;
+    font-family: Open Sans;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    line-height: 1.4em; }
+    section.code p:first-letter {
+      font-family: permanent marker;
+      font-size: 2.5em;
+      font-style: italic;
+      font-weight: 600; }
+  section.code h3 {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 2.5em;
+    font-family: Open Sans;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center; }
+  section.code a.github {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem 0;
     position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: flex-top;
-    -webkit-align-items: flex-top;
-        -ms-flex-align: flex-top;
-            align-items: flex-top;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    padding-top: 10%; }
-    @media (max-width: 640px) {
-      section.development .dev-wrapper {
-        display: block; } }
-    section.development .dev-wrapper .iphone {
-      display: block;
-      position: absolute;
-      left: 0;
+    width: 30%;
+    padding: 12% 0;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    color: #cdcdcd;
+    background-color: rgba(241, 78, 50, 0.8);
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out; }
+    @media (max-width: 680px) {
+      section.code a.github {
+        width: 100%;
+        padding: 20% 0; } }
+    section.code a.github::before {
+      top: 1rem;
       bottom: 0;
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: auto;
-      width: auto;
-      margin: 2%;
-      -webkit-transform: scale(0.07);
-          -ms-transform: scale(0.07);
-              transform: scale(0.07);
-      -webkit-transform-origin: bottom left;
-          -ms-transform-origin: bottom left;
-              transform-origin: bottom left;
-      z-index: 1; }
-      @media (max-width: 640px) {
-        section.development .dev-wrapper .iphone {
-          -webkit-transform: scale(0.04);
-              -ms-transform: scale(0.04);
-                  transform: scale(0.04); } }
-    section.development .dev-wrapper .imac {
-      display: block;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: auto;
-      height: auto;
-      -webkit-transform: scale(0.5);
-          -ms-transform: scale(0.5);
-              transform: scale(0.5);
-      -webkit-transform-origin: 35% bottom;
-          -ms-transform-origin: 35% bottom;
-              transform-origin: 35% bottom; }
-      @media (max-width: 640px) {
-        section.development .dev-wrapper .imac {
-          -webkit-transform: scale(0.6);
-              -ms-transform: scale(0.6);
-                  transform: scale(0.6);
-          width: 100%; } }
-    section.development .dev-wrapper .ipad {
-      display: block;
-      position: absolute;
       right: 0;
-      bottom: -3%;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: auto;
-      height: auto;
-      -webkit-transform: scale(0.3);
-          -ms-transform: scale(0.3);
-              transform: scale(0.3);
-      -webkit-transform-origin: bottom right;
-          -ms-transform-origin: bottom right;
-              transform-origin: bottom right; }
-      @media (max-width: 640px) {
-        section.development .dev-wrapper .ipad {
-          -webkit-transform: scale(0.25);
-              -ms-transform: scale(0.25);
-                  transform: scale(0.25);
-          width: 100%; } }
-  section.development .col-50:nth-child(2n) {
+      left: 100%;
+      position: absolute;
+      content: "my code on github";
+      font-family: Open Sans;
+      width: 100%;
+      -webkit-transition: all 0.15s ease-in-out;
+              transition: all 0.15s ease-in-out; }
+      @media (max-width: 680px) {
+        section.code a.github::before {
+          top: 1rem;
+          left: 1rem; } }
+    section.code a.github::after {
+      top: 10rem;
+      bottom: 1rem;
+      right: 0;
+      left: -5rem;
+      position: absolute;
+      content: '\f061';
+      font-family: FontAwesome;
+      width: 100%;
+      -webkit-transition: all 0.15s ease-in-out;
+              transition: all 0.15s ease-in-out; }
+      @media (max-width: 680px) {
+        section.code a.github::after {
+          top: 8rem;
+          bottom: 1rem;
+          right: 0;
+          left: 90%; } }
+    section.code a.github:hover {
+      background-color: #f14e32; }
+    section.code a.github:hover:before {
+      left: 1rem; }
+    section.code a.github:hover:after {
+      left: 10rem; }
+  section.code a.codepen {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0 4%; }
-    section.development .col-50:nth-child(2n) h3 {
-      font-family: Permanent Marker; }
-    section.development .col-50:nth-child(2n) p {
-      font-family: open sans;
-      line-height: 2em; }
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem 0;
+    position: relative;
+    width: 30%;
+    padding: 12% 0;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    color: #cdcdcd;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out; }
+    @media (max-width: 680px) {
+      section.code a.codepen {
+        width: 100%;
+        padding: 20% 0; } }
+    section.code a.codepen::before {
+      top: 1rem;
+      bottom: 0;
+      right: 0;
+      left: 100%;
+      position: absolute;
+      content: "code snippets on codepen";
+      font-family: Open Sans;
+      width: 100%;
+      -webkit-transition: all 0.15s ease-in-out;
+              transition: all 0.15s ease-in-out; }
+      @media (max-width: 680px) {
+        section.code a.codepen::before {
+          top: 1rem;
+          left: 1rem; } }
+    section.code a.codepen::after {
+      top: 10rem;
+      bottom: 1rem;
+      right: 0;
+      left: -5rem;
+      position: absolute;
+      content: '\f061';
+      font-family: FontAwesome;
+      width: 100%;
+      -webkit-transition: all 0.15s ease-in-out;
+              transition: all 0.15s ease-in-out; }
+      @media (max-width: 680px) {
+        section.code a.codepen::after {
+          top: 8rem;
+          bottom: 1rem;
+          right: 0;
+          left: 90%; } }
+    section.code a.codepen:hover {
+      background-color: black; }
+    section.code a.codepen:hover:before {
+      left: 1rem; }
+    section.code a.codepen:hover:after {
+      left: 10rem; }
 
 .home-wrap {
   display: -webkit-box;
@@ -900,8 +907,16 @@ section.development {
   max-width: 620px;
   margin: 0 10px; }
 
+.col-60 {
+  width: 60%;
+  position: relative; }
+
 .col-50 {
   width: 50%;
+  position: relative; }
+
+.col-40 {
+  width: 40%;
   position: relative; }
 
 @media (max-width: 640px) {
@@ -910,4 +925,5 @@ section.development {
   .col-1 {
     max-width: 100%; }
   .col-50 {
-    width: auto; } }
+    margin: 0 auto;
+    width: 100%; } }

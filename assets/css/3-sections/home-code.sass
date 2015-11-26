@@ -1,0 +1,104 @@
+// LINK BLOCK MIXIN
+
+=code-link ($text, $color)
+	display: flex
+	justify-content: center
+	margin: 2rem 0
+	position: relative
+	width: 30%
+	padding: 12% 0
+	cursor: pointer
+	overflow: hidden
+	text-decoration: none
+	color: $title-color
+	background-color: rgba($color, 0.8)
+	transition: all 0.2s ease-in-out
+
+	@media (max-width: 680px)
+		width: 100%
+		padding: 20% 0
+	&::before
+		top: 1rem
+		bottom: 0
+		right: 0
+		left: 100%
+		position: absolute
+		content: $text
+		font-family: Open Sans
+		width: 100%
+		transition: all 0.15s ease-in-out
+		@media (max-width: 680px)
+			top: 1rem
+			left: 1rem
+
+	&::after
+		top: 10rem
+		bottom: 1rem
+		right: 0
+		left: -5rem
+		position: absolute
+		content: '\f061'
+		font-family: FontAwesome
+		width: 100%
+		transition: all 0.15s ease-in-out
+		@media (max-width: 680px)
+			top: 8rem
+			bottom: 1rem
+			right: 0
+			left: 90%
+	&:hover
+		background-color: rgba($color, 1)
+	&:hover:before
+		left: 1rem
+	&:hover:after
+		left: 10rem
+
+// START OF THE CODE SECTION STYLES
+
+section.code
+	display: block
+	background:
+		image: url(/assets/images/code-bg-480.jpg)
+		repeat: no-repeat
+		size: cover
+		position: center right
+	// min-height: 300px
+	position: relative
+	width: 100%
+	padding-bottom: 0 !important
+	// filter: grayscale(100%)
+	@media(min-width: 900px)
+		background-image: url(/assets/images/code-bg.jpg)
+
+	p
+		color: $title-color
+		font-family: Open Sans
+		font-size: 1.2em
+		text-align: center
+		background-color: rgba(black, 0.8)
+		padding: 5%
+		line-height: 1.4em
+		&:first-letter
+			font-family: permanent marker
+			font-size: 2.5em
+			font-style: italic
+			font-weight: 600
+
+	h3
+		// max-width: 900px
+		width: 100%
+		margin: 0
+		background:
+			color: black
+		color: white
+		font-size: 2.5em
+		font-family: Open Sans
+		font-style: italic
+		text-transform: uppercase
+		text-align: center
+
+	a.github
+		+code-link ('my code on github', $github)
+
+	a.codepen
+		+code-link ('code snippets on codepen', $codepen)
