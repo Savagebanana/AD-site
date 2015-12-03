@@ -14,49 +14,47 @@
 	background-color: rgba($color, 0.8)
 	transition: all 0.2s ease-in-out
 
-	@media (max-width: 680px)
+	@media (max-width: 768px)
 		width: 100%
 		padding: 20% 0
 	&::before
-		top: 1rem
-		bottom: 0
-		right: 0
+		top: calc(0% + 1rem)
 		left: 100%
 		position: absolute
 		content: $text
 		font-family: Open Sans
+		font-size: 1rem
+		line-height: 1.25rem
 		width: 100%
 		transition: all 0.15s ease-in-out
-		@media (max-width: 680px)
+		@media (max-width: 768px)
 			top: 1rem
 			left: 1rem
 
 	&::after
-		top: 10rem
-		bottom: 1rem
-		right: 0
-		left: -5rem
+		bottom: calc(0% + 1rem)
+		left: calc(0% - 1rem)
 		position: absolute
 		content: '\f061'
 		font-family: FontAwesome
 		width: 100%
 		transition: all 0.15s ease-in-out
-		@media (max-width: 680px)
-			top: 8rem
-			bottom: 1rem
-			right: 0
-			left: 90%
+		@media (max-width: 768px)
+			bottom: calc(0% + 1rem)
+			left: calc(100% - 2rem)
 	&:hover
 		background-color: rgba($color, 1)
-	&:hover:before
-		left: 1rem
-	&:hover:after
-		left: 10rem
+	&:hover::before
+		left: calc(0% + 1rem)
+	&:hover::after
+		left: calc(100% - 2rem)
 
 // START OF THE CODE SECTION STYLES
 
 section.code
-	display: block
+	display: flex
+	flex-direction: column
+	flex: 3 1 450px
 	background:
 		image: url(/assets/images/code-bg-480.jpg)
 		repeat: no-repeat
@@ -65,7 +63,7 @@ section.code
 	// min-height: 300px
 	position: relative
 	width: 100%
-	padding-bottom: 0 !important
+	padding: 0 0 !important
 	// filter: grayscale(100%)
 	@media(min-width: 900px)
 		background-image: url(/assets/images/code-bg.jpg)
