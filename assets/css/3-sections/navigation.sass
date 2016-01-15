@@ -1,3 +1,5 @@
+
+
 .home-wrap
 	header
 		width: 135px
@@ -43,10 +45,10 @@
 					a
 						display: block
 						text-decoration: none
-						color: #333
-						transition: all 0.25s cubic-bezier(0, 0, 0.56, 2.65)
+						color: $text-color
+						transition: transform 0.25s cubic-bezier(0, 0, 0.56, 2.65)
 						&:hover
-							color: crimson
+							color: crimson - 60
 							transform: scale(1.2)
 		.active
 			// background-color: pink
@@ -56,7 +58,16 @@
 			text-align: right
 			padding: 20px
 			text-decoration: none
-
+			color: crimson
+			background:
+				image: linear-gradient(to right, rgba(0,0,0,0) 50%, crimson 50%)
+				size: 200% 100%
+				position: bottom left
+			transition: all 0.2s ease-in
+			&:hover
+				background:
+					position: bottom right
+				color: white
 		.mobile-nav-toggle
 			width: 50px
 			height: 50px

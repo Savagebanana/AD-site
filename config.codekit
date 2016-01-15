@@ -791,46 +791,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/imac-TorSky-img.png": {
-		"fileType": 32768,
+	"\/_site\/assets\/images\/DGS_SummerWatercolor_01.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 210866,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/imac-TorSky-img.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/imac-TorSky-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/ipad-TorSky-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 98784,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/ipad-TorSky-img.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/ipad-TorSky-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/iphone-360fc-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54662,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/iphone-360fc-img.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/iphone-360fc-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/iphone-TorSky-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 55034,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/iphone-TorSky-img.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/iphone-TorSky-img.png",
+		"initialSize": 928714,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/DGS_SummerWatercolor_01.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/DGS_SummerWatercolor_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -901,17 +868,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/nexus6-TorSky-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.56747e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/nexus6-TorSky-img.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/nexus6-TorSky-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/images\/top-bg-450.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -941,17 +897,6 @@
 		"initialSize": 468505,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/top-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/top-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/website-design.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 143629,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/website-design.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/website-design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3298,46 +3243,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/images\/imac-TorSky-img.png": {
-		"fileType": 32768,
+	"\/assets\/images\/DGS_SummerWatercolor_01.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 302665,
-		"inputAbbreviatedPath": "\/assets\/images\/imac-TorSky-img.png",
-		"outputAbbreviatedPath": "\/assets\/images\/imac-TorSky-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/ipad-TorSky-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 98784,
-		"inputAbbreviatedPath": "\/assets\/images\/ipad-TorSky-img.png",
-		"outputAbbreviatedPath": "\/assets\/images\/ipad-TorSky-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/iphone-360fc-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31749,
-		"inputAbbreviatedPath": "\/assets\/images\/iphone-360fc-img.png",
-		"outputAbbreviatedPath": "\/assets\/images\/iphone-360fc-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/iphone-TorSky-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58954,
-		"inputAbbreviatedPath": "\/assets\/images\/iphone-TorSky-img.png",
-		"outputAbbreviatedPath": "\/assets\/images\/iphone-TorSky-img.png",
+		"initialSize": 1.07607e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/DGS_SummerWatercolor_01.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/DGS_SummerWatercolor_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -3408,17 +3320,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/images\/nexus6-TorSky-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/nexus6-TorSky-img.png",
-		"outputAbbreviatedPath": "\/assets\/images\/nexus6-TorSky-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/top-bg-450.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3448,17 +3349,6 @@
 		"initialSize": 275160,
 		"inputAbbreviatedPath": "\/assets\/images\/top-bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/top-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/website-design.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 143629,
-		"inputAbbreviatedPath": "\/assets\/images\/website-design.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/website-design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

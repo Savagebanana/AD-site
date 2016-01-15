@@ -5,6 +5,21 @@
 	@media (max-width: 775px)
 		display: block
 
+=sectionHeader
+	background: crimson
+	min-width: 90px
+	padding: 0.25rem 1rem
+	// margin-bottom: 1rem
+	position: absolute
+	top: -10px
+	font-family: Permanent Marker, sans-serif
+	// line-height: 1em
+	// font-size: 1.5em
+	font-weight: 100
+	color: white
+	transform: skewX(5deg) translateX(-2%)
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3)
+	z-index: 2
 .home-sections
 	flex: 1
 
@@ -16,6 +31,7 @@
 	.flex
 		display: flex
 		flex-direction: row
+		// flex-wrap: wrap
 
 	.flex--center
 		justify-content: center
@@ -65,5 +81,6 @@
 		max-width: 100%
 
 	.col-50
+
 		margin: 0 auto
 		width: 100%
