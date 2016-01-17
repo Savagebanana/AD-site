@@ -608,10 +608,11 @@ a {
     transform: translateY(0%); } }
 section.head-img {
   background-image: url(../images/top-bg.jpg);
-  background-position: 100% 0%;
+  background-position: right -200px;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-overflow: hidden; }
+  overflow: hidden; }
   @media (max-width: 680px) {
     section.head-img {
       background-image: url(../images/top-bg-450.png); } }

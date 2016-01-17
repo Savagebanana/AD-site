@@ -1,10 +1,11 @@
 //--------------------------------------
-// Header image parallax
+// Header title parallax
 //---------------------------------------
 $(window).scroll(function(){
 	var wScroll = $(this).scrollTop();
-	$('.head-img').css({
-		'background-position' : '100% '+ wScroll / 2.75 +'%'
+
+	$('.col-title').css({
+		'transform' : 'translate(0, '+ wScroll / 6 +'%)'
 	});
 
 });
