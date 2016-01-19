@@ -5,12 +5,11 @@
 @import "1-base/vars";
 @import "1-base/base";
 
-@import "4-layouts/home";
+@import "2-layouts/home";
+@import "2-layouts/toc";
 
 @import "3-sections/navigation";
 @import "3-sections/home-title";
 @import "3-sections/home-branding";
 @import "3-sections/home-code";
 @import "3-sections/home-business";
-
-

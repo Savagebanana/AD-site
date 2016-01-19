@@ -1,9 +1,9 @@
 mixin nav-content()
 	ul
 		li: a.active(href="{{site.baseurl}}") Home
-		li: a(href="#work") work
-		li: a(href="#code") code
-		li: a(href="#about") about
+		li: a(href="{{site.base.url}}/#work") work
+		li: a(href="{{site.base.url}}/#code") code
+		li: a(href="{{site.base.url}}/#about") about
 
 .mobile-nav
 	+nav-content()

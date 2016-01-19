@@ -1,0 +1,113 @@
+.projects-wrap
+	width: 100%
+	margin: 0
+	padding: 0
+	display: flex
+	position: relative
+	align-items: flex-start
+	@media (max-width: 400px)
+		display: block
+		text-align: center
+		margin: 30px 0 0 0
+
+	.back-link
+		position: relative
+		margin: 0
+		padding: 10px
+		color: $title-color - 50
+		margin: 20px 20px 0 50px
+		transform: translateX(0px)
+		animation: jog 0.8s ease-in-out infinite
+		animation-play-state: paused
+
+		&:hover
+			animation-play-state: running
+
+		&:hover + span
+			opacity: 1
+
+		& + span
+			position: absolute
+			top: 33px
+			opacity: 0
+			background:
+				color: crimson
+			padding: 5px 7px
+			border-radius: 3px
+			color: $title-color
+			font-size: 0.8rem
+			text-transform: uppercase
+			font-weight: 600
+			transition: opacity 0.15s ease-in
+			&:after
+				font-family: FontAwesome
+				content: ' \f0d9'
+				color: crimson
+				position: absolute
+				font-size: 1rem
+				left: -0.3rem
+				top: calc(50% - 8px)
+
+		@media (max-width: 400px)
+			margin: 20px 20px 0 20px
+			& + span
+				top: 3px
+				opacity: 1
+
+	.toc-wrap
+		position: relative
+		display: flex
+		flex-direction: column
+		flex: 1 900px
+		align-items: center
+
+		h3
+			color: $title-color - 80
+			margin: 30px 0
+			padding: 0
+			text-align: center
+			font-size: 1.6rem
+			font-weight: 900
+			position: relative
+
+			&:after
+				content: ''
+				position: absolute
+				bottom: -12px
+				left: 50%
+				height: 3px
+				width: 30px
+				margin-left: -15px
+				display: block
+				background:
+					color: crimson
+		ul
+			list-style: none
+			padding: 0
+			margin: 0
+			li
+				padding-bottom: 5px
+				&:last-child
+					padding-bottom: 0
+				.proj-link
+					text-align: center
+					font-size: 1.25rem
+					display: block
+					text-decoration: none
+					margin: 0
+					color: $title-color - 50
+					text-transfrom: uppercase
+					background:
+						image: linear-gradient(to right, crimson 50%, rgba(0,0,0,0) 50%)
+						size: 200% 100%
+						position: bottom right
+					padding: 2px
+					transition: all 0.2s ease-in-out
+					&:hover
+						background:
+							position: bottom left
+						color: $title-color
+
+@keyframes jog
+	50%
+		transform: translateX(-20px)

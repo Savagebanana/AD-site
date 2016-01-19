@@ -1,3 +1,5 @@
 name: Adrian DOrnellas
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+baseurl: /
+permalink: pretty

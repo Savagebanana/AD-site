@@ -1,0 +1,12 @@
+
+a.back-link(href="{{site.baseurl}}")  
+	i.fa.fa-chevron-circle-left.fa-2x
+span home
+.toc-wrap
+	h3 Projects Index
+	ul
+		{% for post in site.posts %}
+		li
+			a.proj-link(href='{{post.url}}') {{post.title}}
+			
+		{% endfor %}
