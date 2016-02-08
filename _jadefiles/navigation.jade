@@ -1,16 +1,16 @@
 mixin nav-content()
 	ul
-		li: a.active(href="{{site.baseurl}}") Home
-		li: a(href="{{site.base.url}}/#work") work
-		li: a(href="{{site.base.url}}/#code") code
-		li: a(href="{{site.base.url}}/#about") about
+		li: a(href="{{site.base.url}}/#work") Projects
+		li: a(href="{{site.base.url}}/#code") Social
+		//- li: a(href="{{site.base.url}}/#about") about
 
 .mobile-nav
 	+nav-content()
 
 header
 	.header-position
-		h1.logo Adrian DOrnellas
+		a(href="{{site.base.url}}")
+			h1.logo Adrian DOrnellas
 
 		nav.site-nav
 			+nav-content()

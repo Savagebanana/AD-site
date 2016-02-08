@@ -772,7 +772,7 @@ a {
     list-style: none;
     margin: 20px 0;
     padding: 0 20px 0 0;
-    text-align: right;
+    text-align: center;
     font-family: Permanent Marker, sans-serif; }
     .home-wrap header .site-nav ul li {
       margin-bottom: 10px; }
@@ -793,7 +793,7 @@ a {
     color: fuscia; }
   .home-wrap header .email-link {
     display: block;
-    text-align: right;
+    text-align: center;
     padding: 20px;
     text-decoration: none;
     color: crimson;
