@@ -1,9 +1,9 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync');
-var sass        = require('gulp-sass');
-var prefix      = require('gulp-autoprefixer');
-var cp          = require('child_process');
-var jade          = require('gulp-jade');
+var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
+var cp = require('child_process');
+var jade = require('gulp-jade');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -31,7 +31,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
         server: {
-            baseDir: '_site'
+      	baseDir: '_site'
         }
     });
 });
@@ -52,7 +52,7 @@ gulp.task('sass', function () {
 });
 
 /*
-* Watc for jade file and compile them
+* Watch for jade file and compile them
 */
 gulp.task('jade', function(){
     return gulp.src('_jadefiles/*.jade')

@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/nav_btn.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/nav_btn.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/navigation.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -65,15 +74,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/toc.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/toc.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_jadefiles\/columns.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -83,6 +83,17 @@
 		"outputAbbreviatedPath": "\/_includes\/columns.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/_jadefiles\/nav_btn.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_jadefiles\/nav_btn.jade",
+		"outputAbbreviatedPath": "\/_jadefiles\/nav_btn.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/_jadefiles\/navigation.jade": {
@@ -138,17 +149,6 @@
 		"outputAbbreviatedPath": "\/_includes\/section-head-img.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/_jadefiles\/toc.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_jadefiles\/toc.jade",
-		"outputAbbreviatedPath": "\/_jadefiles\/toc.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/_layouts\/default.html": {
@@ -223,11 +223,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/2011\/07\/10\/gta-dodgeball\/index.html": {
+	"\/_site\/2011\/07\/07\/gta-dodgeball\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2011\/07\/10\/gta-dodgeball\/index.html",
+		"inputAbbreviatedPath": "\/_site\/2011\/07\/07\/gta-dodgeball\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -651,6 +651,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/_site\/assets\/css\/2-layouts\/projects.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/2-layouts\/projects.sass",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/projects.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/_site\/assets\/css\/2-layouts\/toc.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -747,6 +763,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/_site\/assets\/css\/4-modules\/nav_btn.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/4-modules\/nav_btn.sass",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/nav_btn.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/_site\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -783,61 +815,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/logos\/60D42258004AA4C8.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 356403,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/60D42258004AA4C8.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/60D42258004AA4C8.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/logos\/logo-360fc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 119465,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-360fc.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-360fc.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/logos\/logo-boilers.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22913,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-boilers.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-boilers.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/logos\/logo-gta-dodgeball.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14844,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-gta-dodgeball.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-gta-dodgeball.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/images\/logos\/logo-mks.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4236,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-mks.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/logo-mks.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/images\/mugshot-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -849,24 +826,233 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/top-bg-450.png": {
-		"fileType": 32768,
+	"\/_site\/assets\/images\/post_assets\/360fc_headerImg-full.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 178008,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/top-bg-450.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/top-bg-450.png",
+		"initialSize": 275068,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_headerImg-full.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/images\/top-bg-450x600.jpg": {
+	"\/_site\/assets\/images\/post_assets\/360fc_headerImg-half.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 134522,
-		"inputAbbreviatedPath": "\/_site\/assets\/images\/top-bg-450x600.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/images\/top-bg-450x600.jpg",
+		"initialSize": 75968,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/boilers_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139537,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/boilers_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/boilers_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/boilers_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43498,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/boilers_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/boilers_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/GTA_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150237,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/GTA_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/GTA_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/GTA_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46148,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/GTA_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/GTA_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/logo_Wguides.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63781,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/logo_Wguides.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/logo_Wguides.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/mks_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 343991,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/mks_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115823,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/TSC-mockups.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89902,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/TSC-mockups.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/TSC-mockups.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 340180,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93432,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_fb-lrg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265483,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_fb-lrg.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_fb-lrg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_fb-med.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129824,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_fb-med.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_fb-med.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_fb-sml.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70175,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_fb-sml.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_fb-sml.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524384,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33721,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_notebook-lrg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161028,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_notebook-lrg.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_notebook-lrg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_notebook-med.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114707,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_notebook-med.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_notebook-med.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_notebook-sml.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71323,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_notebook-sml.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_notebook-sml.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_titleSec-full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21352,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_titleSec-full.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_titleSec-full.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2438,15 +2624,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/projects\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/projects\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -2467,6 +2644,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/_site\/toc\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/toc\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/0-tools\/bourbon\/_bourbon-deprecated-upcoming.scss": {
 		"createSourceMap": 0,
@@ -4282,6 +4468,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/2-layouts\/projects.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/2-layouts\/projects.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/projects.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/2-layouts\/toc.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4378,6 +4580,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-modules\/nav_btn.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-modules\/nav_btn.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/nav_btn.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4414,61 +4632,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/images\/logos\/60D42258004AA4C8.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/logos\/60D42258004AA4C8.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logos\/60D42258004AA4C8.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/logos\/logo-360fc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 119465,
-		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-360fc.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-360fc.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/logos\/logo-boilers.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27440,
-		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-boilers.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-boilers.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/logos\/logo-gta-dodgeball.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22665,
-		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-gta-dodgeball.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-gta-dodgeball.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/logos\/logo-mks.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6036,
-		"inputAbbreviatedPath": "\/assets\/images\/logos\/logo-mks.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logos\/logo-mks.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/assets\/images\/mugshot-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4476,6 +4639,237 @@
 		"initialSize": 552128,
 		"inputAbbreviatedPath": "\/assets\/images\/mugshot-bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/mugshot-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/360fc_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 275068,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/360fc_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75968,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/boilers_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139537,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/boilers_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/boilers_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/boilers_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43498,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/boilers_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/boilers_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/GTA_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150237,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/GTA_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/GTA_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/GTA_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46148,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/GTA_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/GTA_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/logo_Wguides.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63781,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/logo_Wguides.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/logo_Wguides.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/mks_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 343991,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/mks_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/mks_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/mks_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115823,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/mks_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/mks_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/TSC-mockups.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89902,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/TSC-mockups.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/TSC-mockups.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tsc_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 340180,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tsc_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93432,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_fb-lrg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265483,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_fb-lrg.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_fb-lrg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_fb-med.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129824,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_fb-med.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_fb-med.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_fb-sml.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70175,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_fb-sml.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_fb-sml.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524384,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33721,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_notebook-lrg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161028,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_notebook-lrg.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_notebook-lrg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_notebook-med.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114707,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_notebook-med.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_notebook-med.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_notebook-sml.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71323,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_notebook-sml.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_notebook-sml.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_titleSec-full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21352,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_titleSec-full.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_titleSec-full.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -6272,15 +6666,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/projects.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/projects.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -6301,6 +6686,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/toc.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/toc.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

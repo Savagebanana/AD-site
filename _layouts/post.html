@@ -1,9 +1,54 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+
+<style type="text/css">
+	.post-header{
+		background-image:url({{site.baseurl}}assets/images/post_assets/{{page.img-full}});
+	}
+	@media screen and (max-width: 480px){
+		.post-header{
+			background-image:url({{site.baseurl}}assets/images/post_assets/{{page.img-half}});}
+		}
+</style>
+
+{% include nav_btn.html%}
+
+<div class='post-header' >
+	{%if page.thumbnail-alt%}
+		<img src="{{site.baseurl}}assets/images/post_assets/{{page.thumbnail-alt}}">
+	{%else%}
+		<img src="{{site.baseurl}}assets/images/logos/{{page.thumbnail}}">
+	{%endif%}
+</div>
+<div class="content-wrapper">
+	<div class="words-wrap">
+
+		<div class="title">
+			<h1>{{page.title}}</h1>
+			<span>{{page.sub-title}}</span>
+		</div>
+		<div class="desc">
+			<p>
+				{{page.desc}}
+			</p>
+		</div>
+
+	</div>
+
+	<div class="process-wrap">
+		<h4>process</h4>
+	</div>
+</div>
 
 <div class="post">
-{{ content }}
+	{{ content }}
+</div>
+<div class="post-nav">
+	  {% if page.previous.url %}
+	    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+	  {% endif %}
+	  {% if page.next.url %}
+	    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+	  {% endif %}
 </div>

@@ -1,0 +1,132 @@
+.post-header
+	display: flex
+	margin-bottom: 3em
+	justify-content: center
+	width: 100%
+	// height: 50vh
+	min-height: 30vh
+	background:
+		size: cover
+		position: center top
+	box-shadow: 0 0 5px rgba(0,0,0,0.5)
+	img
+		display: block
+		width: 30%
+		margin: 5% 0
+		@media (max-width: 400px)
+			width: 50%
+.post-nav
+	position: relative
+	font:
+		size: 1rem
+		family: Open sans
+	display: flex
+	width: 100%
+	// height: 5vh
+	margin-bottom: 1em
+	background: $text-color
+	.next
+		text-decoration: none
+		padding: 0.5em 2em 1em 1em
+		color: crimson
+		position: absolute
+		right: 0
+		top: 0
+		font:
+			family: Open sans
+			size: 0.8rem
+		&:hover
+			background-color: crimson
+			color: white
+			border-radius: 5px 0 0 5px
+		@media (max-width: 400px)
+			padding: 0.5em 0.5em 1em 0.5em
+	.prev
+		text-decoration: none
+		padding: 0.5em 1em 1em 2em
+		color: crimson
+		position: absolute
+		left: 0
+		top: 0
+		font:
+			family: Open sans
+			size: 0.8rem
+		&:hover
+			background-color: crimson
+			color: white
+			border-radius: 0 5px 5px 0
+		@media (max-width: 400px)
+			padding: 0.5em 0.5em 1em 0.5em
+.content-wrapper
+	display: flex
+	position: relative
+	margin: 0 auto
+	width: 90%
+	align-items: baseline
+	background:
+		// color: goldenrod
+	@media (max-width: 400px)
+		flex-direction: column
+		align-items: center
+	& >*
+		flex: 1
+		margin-bottom: 2em
+		h1
+			margin: 0
+			padding: 0
+			color: $heading-color
+			padding-right: 0.5em
+			font:
+				size: 1.7rem
+				family: Open sans
+				weight: 800
+			text-transform: none
+			line-height: 2.8rem
+		span
+			color: $text-color
+			font:
+				size: 1rem
+				style: italic
+
+
+		h4
+			margin: 0
+			padding: 0
+			text-align: center
+			color: $text-color
+			text-transform: uppercase
+			font:
+				family: Open sans
+				size: 1.2rem
+				weight: 200
+.words-wrap
+	display: flex
+	flex-direction: column
+
+	.title
+		align-items: baseline
+		display: flex
+		@media (max-width: 400px)
+			flex-direction: column
+			align-items: center
+
+	.desc
+		margin-top: 2em
+		color: $text-color
+		font:
+			size: 1rem
+		@media (max-width: 400px)
+				text-align: center
+.post
+	width: 90%
+	margin: 0 auto
+	overflow: hidden
+	text-align: center
+	display: block
+	& >*
+		margin-bottom: 2em
+	img
+		max-width: 100%
+
+	.img-50
+		max-width: 50%

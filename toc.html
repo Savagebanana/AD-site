@@ -1,0 +1,16 @@
+---
+layout: default
+title: Project Index
+---
+{% include nav_btn.html%}
+
+<div class="projects-wrap">
+	<div class="toc-wrap">
+		<h3>Projects Index</h3>
+		<ul>
+			{% for post in site.posts %}
+			<li><a href="{{post.url}}" class="proj-link">{{post.title}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,44 @@
+.btn_wrap
+	position: absolute
+	z-index: 1
+
+	.back-link
+		box-shadow: 1px 1px 5px rgba(0,0,0,0.3)
+		background: crimson
+		width: 100%
+		padding: 0.3em
+		display: block
+		position: relative
+		border-radius: 0 0 3px 0
+		i
+			color: white
+		&:hover + span
+			opacity: 1
+
+		& + span
+			position: absolute
+			top: 0.8em
+			left: 3em
+			margin-left: 1em
+			opacity: 0
+			background:
+				color: crimson
+			padding: 5px 7px
+			border-radius: 3px
+			color: white
+			font-size: 0.8rem
+			text-transform: uppercase
+			font-weight: 600
+			transition: opacity 0.15s ease-in
+			&:after
+				font-family: FontAwesome
+				content: ' \f0d9'
+				color: crimson
+				position: absolute
+				font-size: 1rem
+				left: -0.3rem
+				top: calc(50% - 8px)
+
+		@media (max-width: 400px)
+			& + span
+				opacity: 0
