@@ -747,6 +747,9 @@ a {
     @media (max-width: 1024px) {
       .post-nav .prev {
         padding: 0 0.5em 0 0; } }
+  @media (max-width: 415px) {
+    .post-nav {
+      top: 50%; } }
 
 .center-full {
   display: -webkit-box;
