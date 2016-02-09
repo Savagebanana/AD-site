@@ -700,7 +700,7 @@ a {
 .post-nav {
   position: fixed;
   height: 100%;
-  bottom: -50%;
+  top: 95%;
   font-size: 1rem;
   font-family: Open sans;
   display: -webkit-box;
