@@ -15,48 +15,6 @@
 		margin: 5% 0
 		@media (max-width: 400px)
 			width: 50%
-.post-nav
-	position: relative
-	font:
-		size: 1rem
-		family: Open sans
-	display: flex
-	width: 100%
-	// height: 5vh
-	margin-bottom: 1em
-	background: $text-color
-	.next
-		text-decoration: none
-		padding: 0.5em 2em 1em 1em
-		color: crimson
-		position: absolute
-		right: 0
-		top: 0
-		font:
-			family: Open sans
-			size: 0.8rem
-		&:hover
-			background-color: crimson
-			color: white
-			border-radius: 5px 0 0 5px
-		@media (max-width: 400px)
-			padding: 0.5em 0.5em 1em 0.5em
-	.prev
-		text-decoration: none
-		padding: 0.5em 1em 1em 2em
-		color: crimson
-		position: absolute
-		left: 0
-		top: 0
-		font:
-			family: Open sans
-			size: 0.8rem
-		&:hover
-			background-color: crimson
-			color: white
-			border-radius: 0 5px 5px 0
-		@media (max-width: 400px)
-			padding: 0.5em 0.5em 1em 0.5em
 .content-wrapper
 	display: flex
 	position: relative
@@ -123,10 +81,93 @@
 	overflow: hidden
 	text-align: center
 	display: block
+	position: relative
+	display: block
+	@media (max-width: 1080px)
+		width: 80%
+	@media (max-width: 415px)
+		width: 70%
 	& >*
 		margin-bottom: 2em
 	img
 		max-width: 100%
 
 	.img-50
-		max-width: 50%
+		width: 50%
+.post-nav
+	position: fixed
+	height: 100%
+	bottom: -50%
+	font:
+		size: 1rem
+		family: Open sans
+	display: flex
+	width: 100%
+	z-index: 1
+	.next
+		text-decoration: none
+		padding: 0 2em 0 1em
+		color: crimson
+		position: absolute
+		right: 0
+		top: 0
+		font:
+			family: Open sans
+			size: 0.8rem
+		line-height: 2rem
+		transition: all 0.15s ease-in
+		&:hover
+			background-color: crimson
+			color: white
+			border-radius: 5px 0 0 5px
+		@media (max-width: 1024px)
+			padding: 0 0 0 0.5em
+	.prev
+		text-decoration: none
+		padding: 0 1em 0 2em
+		color: crimson
+		position: absolute
+		left: 0
+		top: 0
+		font:
+			family: Open sans
+			size: 0.8rem
+		line-height: 2rem
+		transition: all 0.15s ease-in
+		&:hover
+			background-color: crimson
+			color: white
+			border-radius: 0 5px 5px 0
+		@media (max-width: 1024px)
+			padding: 0 0.5em 0 0
+	// @media (max-width: 400px)
+	// 	position: absolute
+	// 	display: block
+	// 	top: 100%
+.across
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+
+.center-full
+	display: flex
+	justify-content: center
+	@media (max-width: 415px)
+		flex-direction: column
+.img-block
+	display: flex
+	margin: 0 0.5em
+	width: auto
+	position: relative
+	flex-direction: column
+	// margin-right: 1em
+	img
+		width: 100%
+
+
+	p
+		text-align: left
+		padding-top: 0.3em
+		font-size: 0.7rem
+		color: $text-color
+		z-index: 2

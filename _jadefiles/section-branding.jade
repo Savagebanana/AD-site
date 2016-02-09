@@ -2,7 +2,7 @@ section.logo-branding#work
 	h3 Projects
 
 	.flex.logo-wrap
-		{% for post in site.posts %}
+		{% for post in site.posts  | limit: 6%}
 
 		a.logo-thumb(href='{{post.url}}' style='background-image: url(assets/images/logos/{{post.thumbnail}})')
 			.logo-meta

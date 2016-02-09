@@ -585,50 +585,6 @@ a {
       .post-header img {
         width: 50%; } }
 
-.post-nav {
-  position: relative;
-  font-size: 1rem;
-  font-family: Open sans;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin-bottom: 1em;
-  background: #777584; }
-  .post-nav .next {
-    text-decoration: none;
-    padding: 0.5em 2em 1em 1em;
-    color: crimson;
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-family: Open sans;
-    font-size: 0.8rem; }
-    .post-nav .next:hover {
-      background-color: crimson;
-      color: white;
-      border-radius: 5px 0 0 5px; }
-    @media (max-width: 400px) {
-      .post-nav .next {
-        padding: 0.5em 0.5em 1em 0.5em; } }
-  .post-nav .prev {
-    text-decoration: none;
-    padding: 0.5em 1em 1em 2em;
-    color: crimson;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-family: Open sans;
-    font-size: 0.8rem; }
-    .post-nav .prev:hover {
-      background-color: crimson;
-      color: white;
-      border-radius: 0 5px 5px 0; }
-    @media (max-width: 400px) {
-      .post-nav .prev {
-        padding: 0.5em 0.5em 1em 0.5em; } }
-
 .content-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -725,13 +681,126 @@ a {
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
+  display: block;
+  position: relative;
   display: block; }
+  @media (max-width: 1080px) {
+    .post {
+      width: 80%; } }
+  @media (max-width: 415px) {
+    .post {
+      width: 70%; } }
   .post > * {
     margin-bottom: 2em; }
   .post img {
     max-width: 100%; }
   .post .img-50 {
-    max-width: 50%; }
+    width: 50%; }
+
+.post-nav {
+  position: fixed;
+  height: 100%;
+  bottom: -50%;
+  font-size: 1rem;
+  font-family: Open sans;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  z-index: 1; }
+  .post-nav .next {
+    text-decoration: none;
+    padding: 0 2em 0 1em;
+    color: crimson;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: Open sans;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    -webkit-transition: all 0.15s ease-in;
+            transition: all 0.15s ease-in; }
+    .post-nav .next:hover {
+      background-color: crimson;
+      color: white;
+      border-radius: 5px 0 0 5px; }
+    @media (max-width: 1024px) {
+      .post-nav .next {
+        padding: 0 0 0 0.5em; } }
+  .post-nav .prev {
+    text-decoration: none;
+    padding: 0 1em 0 2em;
+    color: crimson;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Open sans;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    -webkit-transition: all 0.15s ease-in;
+            transition: all 0.15s ease-in; }
+    .post-nav .prev:hover {
+      background-color: crimson;
+      color: white;
+      border-radius: 0 5px 5px 0; }
+    @media (max-width: 1024px) {
+      .post-nav .prev {
+        padding: 0 0.5em 0 0; } }
+
+.across {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.center-full {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (max-width: 415px) {
+    .center-full {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+.img-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0.5em;
+  width: auto;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .img-block img {
+    width: 100%; }
+  .img-block p {
+    text-align: left;
+    padding-top: 0.3em;
+    font-size: 0.7rem;
+    color: #777584;
+    z-index: 2; }
 
 .home-wrap header {
   width: 135px;
