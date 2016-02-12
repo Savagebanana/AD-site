@@ -1,7 +1,7 @@
 {
   "name": "browser-sync-jekyll",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "description": "A starter project including full setup for Jekyll, GulpJS, SASS, svgmin & BrowserSync",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,11 @@
     "browser-sync": "^2.8.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "2.3.1",
+    "gulp-cheerio": "^0.6.2",
     "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^2.0.4",
+    "gulp-svgmin": "^1.2.1",
+    "gulp-svgstore": "^5.0.5"
   },
   "repository": {
     "type": "git",

@@ -21,8 +21,7 @@
 	margin: 0 auto
 	width: 90%
 	align-items: baseline
-	background:
-		// color: goldenrod
+
 	@media (max-width: 400px)
 		flex-direction: column
 		align-items: center
@@ -75,9 +74,49 @@
 			size: 1rem
 		@media (max-width: 400px)
 				text-align: center
+.center-icons
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+	margin-top: 2em
+
+	.icon-box
+		position: relative
+		width: auto
+		text-align: center
+		background:
+			// color: aqua
+		display: block
+		.spec-icon
+			width: 2em
+			height: 2em
+			border: 2px solid $text-color
+			padding: 0.3em
+			border-radius: 50%
+			fill: $text-color
+			margin: 0.6em
+			cursor: pointer
+			display: block
+			&:hover
+				box-shadow: 0 0 2px rgba(0,0,0,0.5)
+			&:hover + span
+				opacity: 1
+				transform: translatey(0)
+		span
+			background:
+				// color: goldenrod
+			opacity: 0
+			display: block
+			transform: translatey(-1em)
+			transform-origin: 0 100%
+			position: absolute
+			width: 100%
+			transition: all 0.25s ease-in-out
+		@media (max-width:1024px)
+			overflow: hidden
 .post
 	width: 90%
-	margin: 0 auto
+	margin: 2em auto 2em auto
 	overflow: hidden
 	text-align: center
 	display: block

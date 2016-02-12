@@ -169,6 +169,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/06-01-2016-better-lovebirds.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/06-01-2016-better-lovebirds.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/2011-07-10-gta-dodgeball.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -205,6 +214,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/2014-12-04-steve-dangelo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2014-12-04-steve-dangelo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/2015-03-10-toronto-skycam.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -219,6 +237,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2015-05-01-360-Futbol-Camp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2016-01-05-storyboard-Communications.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2016-01-05-storyboard-Communications.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -259,6 +286,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/2014\/12\/04\/steve-dangelo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2014\/12\/04\/steve-dangelo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/2015\/03\/10\/toronto-skycam\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -273,6 +309,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/2015\/05\/01\/360-Futbol-Camp\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2016\/01\/01\/better-lovebirds\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2016\/01\/01\/better-lovebirds\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2016\/01\/05\/storyboard-Communications\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2016\/01\/05\/storyboard-Communications\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -815,6 +869,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/images\/logos\/F2C89EB73090258.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9175,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/F2C89EB73090258.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/F2C89EB73090258.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/F2C89EB7309025A.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5513,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/F2C89EB7309025A.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/F2C89EB7309025A.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/logos\/F2C89EB7309025B.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9196,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/logos\/F2C89EB7309025B.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/logos\/F2C89EB7309025B.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/images\/mugshot-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -822,6 +909,61 @@
 		"initialSize": 552128,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/mugshot-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/mugshot-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/360fc-merch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87566,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-merch.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-merch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/360fc-promoMat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185126,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-promoMat.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-promoMat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/360fc-screens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28385,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-screens.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-screens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/360fc-sketchbook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135746,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-sketchbook.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-sketchbook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/360fc-vectorLogos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62247,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-vectorLogos.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc-vectorLogos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -844,6 +986,39 @@
 		"initialSize": 75968,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_headerImg-half.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/360fc_siteDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133311,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_siteDesign.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/360fc_siteDesign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/blb_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262070,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/blb_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105200,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -925,6 +1100,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/images\/post_assets\/mks-stickers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63808,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks-stickers.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks-stickers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/mks-tee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57696,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks-tee.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks-tee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/images\/post_assets\/mks_headerImg-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -943,6 +1140,61 @@
 		"initialSize": 115823,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks_headerImg-half.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/mks_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/sc-webpage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221813,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/sc-webpage.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/sc-webpage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/sc_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111052,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/sc_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/sc_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/sc_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30926,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/sc_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/sc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/SD_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160979,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/SD_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54082,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD_headerImg-half.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -976,6 +1228,50 @@
 		"initialSize": 93432,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_headerImg-half.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc_siteDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261169,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_siteDesign.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_siteDesign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc_sketches-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 305400,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_sketches-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_sketches-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc_sketches-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113273,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_sketches-half.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_sketches-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc_stationary.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153328,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_stationary.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc_stationary.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1075,6 +1371,17 @@
 		"initialSize": 21352,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_titleSec-full.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_titleSec-full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tt_titleSec-half.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10517,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_titleSec-half.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tt_titleSec-half.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4654,6 +4961,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/images\/logos\/F2C89EB73090258.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9175,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/F2C89EB73090258.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/F2C89EB73090258.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/F2C89EB7309025A.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5513,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/F2C89EB7309025A.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/F2C89EB7309025A.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logos\/F2C89EB7309025B.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9196,
+		"inputAbbreviatedPath": "\/assets\/images\/logos\/F2C89EB7309025B.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logos\/F2C89EB7309025B.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/mugshot-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4664,6 +5004,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/360fc-merch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87566,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-merch.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-merch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/360fc-promoMat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185126,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-promoMat.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-promoMat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/360fc-screens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28385,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-screens.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-screens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/360fc-sketchbook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135746,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-sketchbook.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-sketchbook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/360fc-vectorLogos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62247,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-vectorLogos.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc-vectorLogos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/post_assets\/360fc_headerImg-full.jpg": {
 		"fileType": 16384,
@@ -4686,6 +5081,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/360fc_siteDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133311,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc_siteDesign.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/360fc_siteDesign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/blb_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262070,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/blb_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/blb_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/blb_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105200,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/post_assets\/boilers-jers-v1.jpg": {
 		"fileType": 16384,
@@ -4764,6 +5192,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/images\/post_assets\/mks-stickers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63808,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/mks-stickers.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/mks-stickers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/mks-tee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57696,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/mks-tee.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/mks-tee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/post_assets\/mks_headerImg-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4785,6 +5235,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/sc-webpage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221813,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/sc-webpage.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/sc-webpage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/sc_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111052,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/sc_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/sc_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/sc_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30926,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/sc_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/sc_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/SD_headerImg-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160979,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD_headerImg-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD_headerImg-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/SD_headerImg-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54082,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD_headerImg-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/post_assets\/TSC-mockups.jpg": {
 		"fileType": 16384,
@@ -4818,6 +5323,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tsc_siteDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261169,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_siteDesign.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_siteDesign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/tsc_sketches-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 305400,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_sketches-full.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_sketches-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/tsc_sketches-half.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113273,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_sketches-half.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc_sketches-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/post_assets\/tsc_stationary.jpg": {
 		"fileType": 16384,
@@ -4928,6 +5466,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tt_titleSec-half.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10517,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_titleSec-half.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tt_titleSec-half.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/top-bg-ipad.jpg": {
 		"fileType": 16384,

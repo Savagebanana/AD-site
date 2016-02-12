@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include icons.svg%}
 <style type="text/css">
 	.post-header{
 		background-image:url({{site.baseurl}}assets/images/post_assets/{{page.img-full}});
@@ -37,7 +37,17 @@ layout: default
 	</div>
 
 	<div class="process-wrap">
-		<h4>skills</h4>
+		<h4>specs</h4>
+		<div class="center-icons">
+
+			{% for item in page.spec %}
+			<div class="icon-box">
+				<svg class='spec-icon'><use xlink:href="#icons_{{item.name}}"/></svg>
+				<span>{{item.what}}</span>
+			</div>
+			{% endfor %}
+
+		</div>
 	</div>
 </div>
 

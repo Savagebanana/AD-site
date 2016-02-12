@@ -4,6 +4,9 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var cp = require('child_process');
 var jade = require('gulp-jade');
+var svgmin = require('gulp-svgmin');
+var svgstore = require('gulp-svgstore');
+var cheerio= require('gulp-cheerio');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -59,12 +62,28 @@ gulp.task('jade', function(){
     .pipe(jade())
     .pipe(gulp.dest('_includes'));
 });
+
+
+/*
+ * Minifiy svg images
+*/
+gulp.task('svgsmash', function(){
+	return gulp.src('assets/images/icons/*.svg')
+	.pipe(svgmin({
+		plugins: [{removeDoctypes:false},{removeComments:true}, {cleanupNumericValues:{floatPrecision:2}},{cleanupIDs:false}]
+	}))
+	.pipe(svgstore({ inlineSvg: true }))
+	.pipe(cheerio(function($){$('svg').attr('style','display:none');}))
+	.pipe(gulp.dest('_includes'));
+});
+
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
     gulp.watch('assets/css/**', ['sass']);
+    gulp.watch('assets/images/icons/**',['svgsmash']);
     gulp.watch('assets/js/**', ['jekyll-rebuild']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
     gulp.watch('_jadefiles/*.jade', ['jade']);

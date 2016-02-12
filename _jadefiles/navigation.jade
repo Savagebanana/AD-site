@@ -1,11 +1,17 @@
 mixin nav-content()
 	ul
 		li: a(href="{{site.base.url}}/#work") Projects
-		li: a(href="{{site.base.url}}/#code") Social
+		li: a(href="{{site.base.url}}/#social") Social
 		//- li: a(href="{{site.base.url}}/#about") about
+mixin mobile-nav-content()
+	ul
+		li: a(href="{{site.base.url}}/#work") Projects
+		li: a(href="{{site.base.url}}/#social") Social
+		li: a.email-link(href='mailto:adrian@savagebanana.com') + hire me
 
 .mobile-nav
-	+nav-content()
+	+mobile-nav-content()
+	
 
 header
 	.header-position
