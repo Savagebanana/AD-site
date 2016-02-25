@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19115",
 "files": {
 	"\/_includes\/columns.html": {
 		"fileType": 8192,
@@ -74,16 +74,14 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_jadefiles\/columns.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
+	"\/_includes\/section-social.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_jadefiles\/columns.jade",
-		"outputAbbreviatedPath": "\/_includes\/columns.html",
+		"inputAbbreviatedPath": "\/_includes\/section-social.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/_jadefiles\/nav_btn.jade": {
 		"compileDebug": 1,
@@ -118,28 +116,6 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/_jadefiles\/section-business.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_jadefiles\/section-business.jade",
-		"outputAbbreviatedPath": "\/_includes\/section-business.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/_jadefiles\/section-code.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_jadefiles\/section-code.jade",
-		"outputAbbreviatedPath": "\/_includes\/section-code.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
 	"\/_jadefiles\/section-head-img.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -147,6 +123,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_jadefiles\/section-head-img.jade",
 		"outputAbbreviatedPath": "\/_includes\/section-head-img.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/_jadefiles\/section-social.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_jadefiles\/section-social.jade",
+		"outputAbbreviatedPath": "\/_includes\/section-code.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -174,15 +161,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/06-01-2016-better-lovebirds.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_posts\/2011-07-10-gta-dodgeball.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2011-07-10-gta-dodgeball.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -246,15 +224,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2016-01-05-storyboard-Communications.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/2011\/07\/07\/gta-dodgeball\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2011\/07\/07\/gta-dodgeball\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -753,31 +722,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/_site\/assets\/css\/3-sections\/home-business.sass": {
+	"\/_site\/assets\/css\/3-sections\/home-social.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/3-sections\/home-business.sass",
-		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/home-business.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/_site\/assets\/css\/3-sections\/home-code.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/3-sections\/home-code.sass",
-		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/home-code.css",
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/3-sections\/home-social.sass",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/home-social.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1001,6 +954,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/images\/post_assets\/BLB-photography.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114473,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/BLB-photography.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/BLB-photography.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/blb-responsive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87548,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb-responsive.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb-responsive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/BLB_businesscard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70137,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/BLB_businesscard.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/BLB_businesscard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/images\/post_assets\/blb_headerImg-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1019,6 +1005,17 @@
 		"initialSize": 105200,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/BLB_siteDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162515,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/BLB_siteDesign.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/BLB_siteDesign.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1177,6 +1174,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/images\/post_assets\/SD-gig1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178940,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-gig1.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-gig1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/SD-gig2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210417,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-gig2.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-gig2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/SD-Notepad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35831,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-Notepad.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-Notepad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/SD-webpics.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234873,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-webpics.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-webpics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/SD-website.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38788,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-website.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/SD-website.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/images\/post_assets\/SD_headerImg-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1206,6 +1258,17 @@
 		"initialSize": 89902,
 		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/TSC-mockups.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/TSC-mockups.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/images\/post_assets\/tsc-responsive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95745,
+		"inputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc-responsive.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/images\/post_assets\/tsc-responsive.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4845,31 +4908,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/3-sections\/home-business.sass": {
+	"\/assets\/css\/3-sections\/home-social.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/3-sections\/home-business.sass",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/home-business.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/assets\/css\/3-sections\/home-code.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/3-sections\/home-code.sass",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/home-code.css",
+		"inputAbbreviatedPath": "\/assets\/css\/3-sections\/home-social.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/home-social.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5093,6 +5140,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/post_assets\/BLB-photography.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114473,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/BLB-photography.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/BLB-photography.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/blb-responsive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87548,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/blb-responsive.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/blb-responsive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/BLB_businesscard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70137,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/BLB_businesscard.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/BLB_businesscard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/post_assets\/blb_headerImg-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5111,6 +5191,17 @@
 		"initialSize": 105200,
 		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/blb_headerImg-half.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/BLB_siteDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162515,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/BLB_siteDesign.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/BLB_siteDesign.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5269,6 +5360,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/post_assets\/SD-gig1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178940,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-gig1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-gig1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/SD-gig2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210417,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-gig2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-gig2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/SD-Notepad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35831,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-Notepad.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-Notepad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/SD-webpics.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234873,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-webpics.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-webpics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post_assets\/SD-website.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38788,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-website.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/SD-website.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/post_assets\/SD_headerImg-full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5301,6 +5447,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/post_assets\/tsc-responsive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95745,
+		"inputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc-responsive.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/post_assets\/tsc-responsive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/post_assets\/tsc_headerImg-full.jpg": {
 		"fileType": 16384,

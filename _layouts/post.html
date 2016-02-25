@@ -21,6 +21,14 @@ layout: default
 		<img src="{{site.baseurl}}assets/images/logos/{{page.thumbnail}}">
 	{%endif%}
 </div>
+<div class="post-nav">
+	  {% if page.previous.url %}
+	    <a class="prev" href="{{page.previous.url}}">PREV</a>
+	  {% endif %}
+	  {% if page.next.url %}
+	    <a class="next" href="{{page.next.url}}">NEXT</a>
+	  {% endif %}
+</div>
 <div class="content-wrapper">
 	<div class="words-wrap">
 
@@ -53,12 +61,4 @@ layout: default
 
 <div class="post">
 	{{ content }}
-</div>
-<div class="post-nav">
-	  {% if page.previous.url %}
-	    <a class="prev" href="{{page.previous.url}}">&laquo; PREV</a>
-	  {% endif %}
-	  {% if page.next.url %}
-	    <a class="next" href="{{page.next.url}}">NEXT&raquo;</a>
-	  {% endif %}
 </div>

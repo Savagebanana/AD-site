@@ -1,6 +1,5 @@
 .post-header
 	display: flex
-	margin-bottom: 3em
 	justify-content: center
 	width: 100%
 	// height: 50vh
@@ -134,53 +133,44 @@
 	.img-50
 		width: 50%
 .post-nav
-	position: fixed
-	height: 100%
-	top: 95%
+	position: relative
+	display: flex
+	justify-content: center
 	font:
 		size: 1rem
 		family: Open sans
-	display: flex
-	width: 100%
+
+	margin: 3em auto
 	z-index: 1
 	.next
+		margin-left: 0.5em
 		text-decoration: none
-		padding: 0 2em 0 1em
+		border: 1px solid crimson
+		padding: 0.7em 1.2em
 		color: crimson
-		position: absolute
-		right: 0
-		top: 0
 		font:
 			family: Open sans
 			size: 0.8rem
-		line-height: 2rem
 		transition: all 0.15s ease-in
 		&:hover
 			background-color: crimson
 			color: white
-			border-radius: 5px 0 0 5px
-		@media (max-width: 1024px)
-			padding: 0 0 0 0.5em
+			// border-radius: 5px 0 0 5px
+
 	.prev
+		margin-right: 0.5em
 		text-decoration: none
-		padding: 0 1em 0 2em
+		border: 1px solid crimson
+		padding: 0.7em 1.2em
 		color: crimson
-		position: absolute
-		left: 0
-		top: 0
 		font:
 			family: Open sans
 			size: 0.8rem
-		line-height: 2rem
 		transition: all 0.15s ease-in
 		&:hover
 			background-color: crimson
 			color: white
-			border-radius: 0 5px 5px 0
-		@media (max-width: 1024px)
-			padding: 0 0.5em 0 0
-	@media (max-width: 415px)
-		top: 50%
+			// border-radius: 0 5px 5px 0
 .center-full
 	display: flex
 	justify-content: center

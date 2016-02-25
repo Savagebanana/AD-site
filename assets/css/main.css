@@ -567,7 +567,6 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 3em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -750,58 +749,45 @@ a {
     width: 50%; }
 
 .post-nav {
-  position: fixed;
-  height: 100%;
-  top: 95%;
-  font-size: 1rem;
-  font-family: Open sans;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+  font-family: Open sans;
+  margin: 3em auto;
   z-index: 1; }
   .post-nav .next {
+    margin-left: 0.5em;
     text-decoration: none;
-    padding: 0 2em 0 1em;
+    border: 1px solid crimson;
+    padding: 0.7em 1.2em;
     color: crimson;
-    position: absolute;
-    right: 0;
-    top: 0;
     font-family: Open sans;
     font-size: 0.8rem;
-    line-height: 2rem;
     -webkit-transition: all 0.15s ease-in;
             transition: all 0.15s ease-in; }
     .post-nav .next:hover {
       background-color: crimson;
-      color: white;
-      border-radius: 5px 0 0 5px; }
-    @media (max-width: 1024px) {
-      .post-nav .next {
-        padding: 0 0 0 0.5em; } }
+      color: white; }
   .post-nav .prev {
+    margin-right: 0.5em;
     text-decoration: none;
-    padding: 0 1em 0 2em;
+    border: 1px solid crimson;
+    padding: 0.7em 1.2em;
     color: crimson;
-    position: absolute;
-    left: 0;
-    top: 0;
     font-family: Open sans;
     font-size: 0.8rem;
-    line-height: 2rem;
     -webkit-transition: all 0.15s ease-in;
             transition: all 0.15s ease-in; }
     .post-nav .prev:hover {
       background-color: crimson;
-      color: white;
-      border-radius: 0 5px 5px 0; }
-    @media (max-width: 1024px) {
-      .post-nav .prev {
-        padding: 0 0.5em 0 0; } }
-  @media (max-width: 415px) {
-    .post-nav {
-      top: 50%; } }
+      color: white; }
 
 .center-full {
   display: -webkit-box;
